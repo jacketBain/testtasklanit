@@ -1,0 +1,16 @@
+.header_layout {
+  display: flex;
+  justify-content: space-between;
+
+  &__user {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  a.link:active a.link:hover,
+  a.link {
+    text-decoration: none;
+    color: inherit;
+  }
+}

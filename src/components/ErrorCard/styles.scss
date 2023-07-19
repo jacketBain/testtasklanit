@@ -1,0 +1,13 @@
+.error_layout {
+  &__card {
+    display: flex;
+    gap: 12px;
+    padding: 24px;
+    align-items: center;
+    &__description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}

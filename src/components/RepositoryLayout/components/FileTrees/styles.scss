@@ -1,0 +1,14 @@
+.filecatalog_layout {
+  margin: 8px;
+}
+
+// customize TreeView
+.MuiTreeItem-content {
+  padding: 8px;
+  border-radius: 4px;
+  width: unset;
+  .MuiTreeItem-iconContainer {
+    width: unset;
+    margin: unset;
+  }
+}

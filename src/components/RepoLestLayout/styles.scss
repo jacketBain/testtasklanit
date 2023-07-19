@@ -1,0 +1,12 @@
+.repository_list_layout{
+    display: flex;
+    flex-direction: column;
+
+    &__greetings{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 24px;
+        padding: 12px;
+    }
+}

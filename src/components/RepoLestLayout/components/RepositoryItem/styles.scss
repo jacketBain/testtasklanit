@@ -1,0 +1,21 @@
+.repository_item {
+  margin-bottom: 12px;
+
+  &__title {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  &__details {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    flex-direction: column;
+
+    &__description {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
